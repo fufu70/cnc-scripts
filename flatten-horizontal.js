@@ -30,6 +30,7 @@ function generateFlatten(bitRadius, width, height, depth, stepSize, x, y, z) {
 	let input = {
 		bitRadius, width, height, depth, stepSize, x, y, z
 	};
+	input.bitRadius *= 0.8;
 	let script = startScript(input);
 
 	let action = runNextStep({
@@ -50,12 +51,11 @@ function generateFlatten(bitRadius, width, height, depth, stepSize, x, y, z) {
 }
 
 function runNextStep(action) {
-	console.log(action.next);
 	switch(action.nextStep) {
+		case "moveVertical":
+			return moveVertical(action.tip, action.input);
 		case "moveSide":
 			return moveSide(action.tip, action.input);
-		case "moveUp":
-			return moveUp(action.tip, action.input);
 		case "moveDown":
 			return moveDown(action.tip, action.input);
 		case "goHome":
@@ -87,7 +87,7 @@ function getStart(input) {
 function enter(tip, input) {
 	return getAction({
 		tip,
-		nextStep: determineNextStep(tip, input, "moveSide"),
+		nextStep: determineNextStep(tip, input, "moveVertical"),
 		script: enterScript(tip, input)
 	}, input)
 }
@@ -104,7 +104,7 @@ G0 X${tipX} Y${tipY} Z${input.z}
 G0 X${tipX} Y${tipY} Z${tipZ}`;
 }
 
-function moveUp(tip, input) {
+function moveSide(tip, input) {
 	let tipX = tip.x;
 	let tipY = tip.y;
 	let tipZ = tip.z;
@@ -116,23 +116,23 @@ function moveUp(tip, input) {
 	};
 	return getAction({
 		tip: nextTip,
-		nextStep: determineNextStep(nextTip, input, "moveSide"),
-		script: moveUpScript(tip, input)
+		nextStep: determineNextStep(nextTip, input, "moveVertical"),
+		script: moveSideScript(tip, input)
 	}, input)
 }
 
-function moveUpScript(tip, input) {
+function moveSideScript(tip, input) {
 	let tipX = tip.x;
 	let tipY = tip.y;
 	let tipZ = tip.z;
 
 	return `
-(moveUp)
+(moveSide)
 G0 X${tipX} Y${tipY + input.bitRadius} Z${tipZ}`;
 }
 
 
-function moveSide(tip, input) {
+function moveVertical(tip, input) {
 	let tipX = tip.x;
 	let tipY = tip.y;
 	let tipZ = tip.z;
@@ -149,12 +149,12 @@ function moveSide(tip, input) {
 
 	return getAction({
 		tip: nextTip,
-		nextStep: determineNextStep(nextTip, input, "moveUp"),
-		script: moveSideScript(tip, input)
+		nextStep: determineNextStep(nextTip, input, "moveSide"),
+		script: moveVerticalScript(tip, input)
 	}, input)
 }
 
-function moveSideScript(tip, input) {
+function moveVerticalScript(tip, input) {
 	let tipX = tip.x;
 	let tipY = tip.y;
 	let tipZ = tip.z;
@@ -164,7 +164,7 @@ function moveSideScript(tip, input) {
 		step *= -1;
 	}
 	return `
-(moveSide)
+(moveVertical)
 G0 X${tipX + step} Y${tipY} Z${tipZ}`;
 }
 
@@ -174,7 +174,7 @@ function moveDown(tip, input) {
 
 	return getAction({
 		tip: nextTip,
-		nextStep: determineNextStep(nextTip, input, "moveSide"),
+		nextStep: determineNextStep(nextTip, input, "moveVertical"),
 		script: moveDownScript(tip, input)
 	}, input);
 }
@@ -221,6 +221,7 @@ function isAreaEnd(tip, input) {
 
 function startScript(input) {
 	return `
+G0 Z${input.z}
 G0 X${input.x} Y${input.y} Z${input.z}
 G1 Z${input.z} F800`;
 }
@@ -235,3 +236,4 @@ G0 X${input.x} Y${input.y} Z${input.z}`;
 
 // generateFlatten(bitRadius, width, height, depth, stepSize, x, y, z);
 console.log(generateFlatten(1, 4, 4, -3, -0.5, 0, 0, 0.5))
+// console.log(generateFlatten(6.35, 240.6, 568, -3, -1, 0, 0, 0.5))
