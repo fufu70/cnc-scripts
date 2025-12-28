@@ -236,4 +236,4 @@ G0 X${input.x} Y${input.y} Z${input.z}`;
 
 // generateFlatten(bitRadius, width, height, depth, stepSize, x, y, z);
 // console.log(generateFlatten(1, 4, 4, -3, -0.5, 0, 0, 0.5))
-console.log(generateFlatten(6.35, 240.6, 568, -1, -1, 0, 0, 0.5))
+console.log(generateFlatten(6.35, 240.6, 568, -1c, -1, 0, 0, 0.5))
