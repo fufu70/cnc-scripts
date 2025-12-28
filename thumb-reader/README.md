@@ -1,3 +1,7 @@
+Every reader has their own preference for holding a book. Some like to read with both pages fully open, at about 170 degrees from left to right page. Others like to read their book at a 90 degree angle from left to right page, tilting the book from one side to the next. Below are gcode templates to try and map what those patterns would look like
+
+## 170 degree Book Holder
+
 Below is the basic pattern to drill a book holder for the thumb.
 
 ```gcode
@@ -31,3 +35,4 @@ G3 X-15.0 Y5.0 Z-0.5 R3.5
 ```
 
 ![Thumb Reader CNC](assets/gcode-reader.png)
+
