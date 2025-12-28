@@ -36,3 +36,34 @@ G3 X-15.0 Y5.0 Z-0.5 R3.5
 
 ![Thumb Reader CNC](assets/gcode-reader.png)
 
+
+## Little Alien
+
+```gcode
+G0 X0 Y0 Z0.5 
+
+G0 X0 Y-10.0 Z0.5
+G0 Z-0.5
+(bore the thumbhole)
+G2 X0 Y-10 Z-0.5 I0 J10.0
+
+
+(Return to the center)
+G0 Z0.5
+G0 X0 Y0 Z0.5 
+
+(Go and cut the outside shape)
+G0 X-10.0 Y10.0 Z0.5 
+G0 Z-0.5
+G2 X10.0 Y10.0 Z-0.5 R14
+G0 X25.0 Y20.0 Z-0.5
+G2 X29.25 Y15.75 Z-0.5 R3.01
+G0 X14 Y5.25 Z-0.5
+G2 X0 Y-14 Z-0.5 R15.5
+G2 X-14 Y5.25 Z-0.5 R15.5
+G0 X-29.25 Y15.75 Z-0.5
+G2 X-25.0 Y20.0 Z-0.5 R3.01
+G0 X-10.0 Y10.0 Z0.5
+```
+
+![Little Alien CNC](assets/little-alien.png)
