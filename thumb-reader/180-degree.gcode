@@ -1,0 +1,412 @@
+G0 Z0.5
+G0 X0 Y0 Z0.5
+G1 Z0.5 F800
+
+G0 X0 Y-10.0 Z0.5
+G0 Z-0.5
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-0.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-1.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-2.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-2.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-3.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-3.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-4.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-4.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-5.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-5.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-6.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-6.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-7.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-7.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-8.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-8.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-9.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-9.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-10.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-10.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-11.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-11.5 I0 J10.0
+
+(Return to the center)
+G0 Z0.5
+G0 X0.0 Y16.0 Z0.5 
+
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-0.5
+G2 X15.0 Y5.0 Z-0.5 R17.5
+G3 X17.5 Y3.0 Z-0.5 R3.5
+G0 X47.5 Y3.0 Z-0.5
+G2 X47.5 Y-3.0 Z-0.5 R3.0
+G0 X17.5 Y-3.0 Z-0.5
+G3 X15.0 Y-5.0 Z-0.5 R3.5
+G2 X-15.0 Y-5.0 Z-0.5 R17.5
+G3 X-17.5 Y-3.0 Z-0.5 R3.5
+G0 X-47.5 Y-3.0 Z-0.5
+G2 X-47.5 Y3.0 Z-0.5 R3.0
+G0 X-17.5 Y3.0 Z-0.5
+G3 X-15.0 Y5.0 Z-0.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-1.5
+G2 X15.0 Y5.0 Z-1.5 R17.5
+G3 X17.5 Y3.0 Z-1.5 R3.5
+G0 X47.5 Y3.0 Z-1.5
+G2 X47.5 Y-3.0 Z-1.5 R3.0
+G0 X17.5 Y-3.0 Z-1.5
+G3 X15.0 Y-5.0 Z-1.5 R3.5
+G2 X-15.0 Y-5.0 Z-1.5 R17.5
+G3 X-17.5 Y-3.0 Z-1.5 R3.5
+G0 X-47.5 Y-3.0 Z-1.5
+G2 X-47.5 Y3.0 Z-1.5 R3.0
+G0 X-17.5 Y3.0 Z-1.5
+G3 X-15.0 Y5.0 Z-1.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-2.5
+G2 X15.0 Y5.0 Z-2.5 R17.5
+G3 X17.5 Y3.0 Z-2.5 R3.5
+G0 X47.5 Y3.0 Z-2.5
+G2 X47.5 Y-3.0 Z-2.5 R3.0
+G0 X17.5 Y-3.0 Z-2.5
+G3 X15.0 Y-5.0 Z-2.5 R3.5
+G2 X-15.0 Y-5.0 Z-2.5 R17.5
+G3 X-17.5 Y-3.0 Z-2.5 R3.5
+G0 X-47.5 Y-3.0 Z-2.5
+G2 X-47.5 Y3.0 Z-2.5 R3.0
+G0 X-17.5 Y3.0 Z-2.5
+G3 X-15.0 Y5.0 Z-2.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-2.5
+G2 X15.0 Y5.0 Z-2.5 R17.5
+G3 X17.5 Y3.0 Z-2.5 R3.5
+G0 X47.5 Y3.0 Z-2.5
+G2 X47.5 Y-3.0 Z-2.5 R3.0
+G0 X17.5 Y-3.0 Z-2.5
+G3 X15.0 Y-5.0 Z-2.5 R3.5
+G2 X-15.0 Y-5.0 Z-2.5 R17.5
+G3 X-17.5 Y-3.0 Z-2.5 R3.5
+G0 X-47.5 Y-3.0 Z-2.5
+G2 X-47.5 Y3.0 Z-2.5 R3.0
+G0 X-17.5 Y3.0 Z-2.5
+G3 X-15.0 Y5.0 Z-2.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-3.5
+G2 X15.0 Y5.0 Z-3.5 R17.5
+G3 X17.5 Y3.0 Z-3.5 R3.5
+G0 X47.5 Y3.0 Z-3.5
+G2 X47.5 Y-3.0 Z-3.5 R3.0
+G0 X17.5 Y-3.0 Z-3.5
+G3 X15.0 Y-5.0 Z-3.5 R3.5
+G2 X-15.0 Y-5.0 Z-3.5 R17.5
+G3 X-17.5 Y-3.0 Z-3.5 R3.5
+G0 X-47.5 Y-3.0 Z-3.5
+G2 X-47.5 Y3.0 Z-3.5 R3.0
+G0 X-17.5 Y3.0 Z-3.5
+G3 X-15.0 Y5.0 Z-3.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-3.5
+G2 X15.0 Y5.0 Z-3.5 R17.5
+G3 X17.5 Y3.0 Z-3.5 R3.5
+G0 X47.5 Y3.0 Z-3.5
+G2 X47.5 Y-3.0 Z-3.5 R3.0
+G0 X17.5 Y-3.0 Z-3.5
+G3 X15.0 Y-5.0 Z-3.5 R3.5
+G2 X-15.0 Y-5.0 Z-3.5 R17.5
+G3 X-17.5 Y-3.0 Z-3.5 R3.5
+G0 X-47.5 Y-3.0 Z-3.5
+G2 X-47.5 Y3.0 Z-3.5 R3.0
+G0 X-17.5 Y3.0 Z-3.5
+G3 X-15.0 Y5.0 Z-3.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-4.5
+G2 X15.0 Y5.0 Z-4.5 R17.5
+G3 X17.5 Y3.0 Z-4.5 R3.5
+G0 X47.5 Y3.0 Z-4.5
+G2 X47.5 Y-3.0 Z-4.5 R3.0
+G0 X17.5 Y-3.0 Z-4.5
+G3 X15.0 Y-5.0 Z-4.5 R3.5
+G2 X-15.0 Y-5.0 Z-4.5 R17.5
+G3 X-17.5 Y-3.0 Z-4.5 R3.5
+G0 X-47.5 Y-3.0 Z-4.5
+G2 X-47.5 Y3.0 Z-4.5 R3.0
+G0 X-17.5 Y3.0 Z-4.5
+G3 X-15.0 Y5.0 Z-4.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-4.5
+G2 X15.0 Y5.0 Z-4.5 R17.5
+G3 X17.5 Y3.0 Z-4.5 R3.5
+G0 X47.5 Y3.0 Z-4.5
+G2 X47.5 Y-3.0 Z-4.5 R3.0
+G0 X17.5 Y-3.0 Z-4.5
+G3 X15.0 Y-5.0 Z-4.5 R3.5
+G2 X-15.0 Y-5.0 Z-4.5 R17.5
+G3 X-17.5 Y-3.0 Z-4.5 R3.5
+G0 X-47.5 Y-3.0 Z-4.5
+G2 X-47.5 Y3.0 Z-4.5 R3.0
+G0 X-17.5 Y3.0 Z-4.5
+G3 X-15.0 Y5.0 Z-4.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-5.5
+G2 X15.0 Y5.0 Z-5.5 R17.5
+G3 X17.5 Y3.0 Z-5.5 R3.5
+G0 X47.5 Y3.0 Z-5.5
+G2 X47.5 Y-3.0 Z-5.5 R3.0
+G0 X17.5 Y-3.0 Z-5.5
+G3 X15.0 Y-5.0 Z-5.5 R3.5
+G2 X-15.0 Y-5.0 Z-5.5 R17.5
+G3 X-17.5 Y-3.0 Z-5.5 R3.5
+G0 X-47.5 Y-3.0 Z-5.5
+G2 X-47.5 Y3.0 Z-5.5 R3.0
+G0 X-17.5 Y3.0 Z-5.5
+G3 X-15.0 Y5.0 Z-5.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-5.5
+G2 X15.0 Y5.0 Z-5.5 R17.5
+G3 X17.5 Y3.0 Z-5.5 R3.5
+G0 X47.5 Y3.0 Z-5.5
+G2 X47.5 Y-3.0 Z-5.5 R3.0
+G0 X17.5 Y-3.0 Z-5.5
+G3 X15.0 Y-5.0 Z-5.5 R3.5
+G2 X-15.0 Y-5.0 Z-5.5 R17.5
+G3 X-17.5 Y-3.0 Z-5.5 R3.5
+G0 X-47.5 Y-3.0 Z-5.5
+G2 X-47.5 Y3.0 Z-5.5 R3.0
+G0 X-17.5 Y3.0 Z-5.5
+G3 X-15.0 Y5.0 Z-5.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-6.5
+G2 X15.0 Y5.0 Z-6.5 R17.5
+G3 X17.5 Y3.0 Z-6.5 R3.5
+G0 X47.5 Y3.0 Z-6.5
+G2 X47.5 Y-3.0 Z-6.5 R3.0
+G0 X17.5 Y-3.0 Z-6.5
+G3 X15.0 Y-5.0 Z-6.5 R3.5
+G2 X-15.0 Y-5.0 Z-6.5 R17.5
+G3 X-17.5 Y-3.0 Z-6.5 R3.5
+G0 X-47.5 Y-3.0 Z-6.5
+G2 X-47.5 Y3.0 Z-6.5 R3.0
+G0 X-17.5 Y3.0 Z-6.5
+G3 X-15.0 Y5.0 Z-6.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-6.5
+G2 X15.0 Y5.0 Z-6.5 R17.5
+G3 X17.5 Y3.0 Z-6.5 R3.5
+G0 X47.5 Y3.0 Z-6.5
+G2 X47.5 Y-3.0 Z-6.5 R3.0
+G0 X17.5 Y-3.0 Z-6.5
+G3 X15.0 Y-5.0 Z-6.5 R3.5
+G2 X-15.0 Y-5.0 Z-6.5 R17.5
+G3 X-17.5 Y-3.0 Z-6.5 R3.5
+G0 X-47.5 Y-3.0 Z-6.5
+G2 X-47.5 Y3.0 Z-6.5 R3.0
+G0 X-17.5 Y3.0 Z-6.5
+G3 X-15.0 Y5.0 Z-6.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-7.5
+G2 X15.0 Y5.0 Z-7.5 R17.5
+G3 X17.5 Y3.0 Z-7.5 R3.5
+G0 X47.5 Y3.0 Z-7.5
+G2 X47.5 Y-3.0 Z-7.5 R3.0
+G0 X17.5 Y-3.0 Z-7.5
+G3 X15.0 Y-5.0 Z-7.5 R3.5
+G2 X-15.0 Y-5.0 Z-7.5 R17.5
+G3 X-17.5 Y-3.0 Z-7.5 R3.5
+G0 X-47.5 Y-3.0 Z-7.5
+G2 X-47.5 Y3.0 Z-7.5 R3.0
+G0 X-17.5 Y3.0 Z-7.5
+G3 X-15.0 Y5.0 Z-7.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-7.5
+G2 X15.0 Y5.0 Z-7.5 R17.5
+G3 X17.5 Y3.0 Z-7.5 R3.5
+G0 X47.5 Y3.0 Z-7.5
+G2 X47.5 Y-3.0 Z-7.5 R3.0
+G0 X17.5 Y-3.0 Z-7.5
+G3 X15.0 Y-5.0 Z-7.5 R3.5
+G2 X-15.0 Y-5.0 Z-7.5 R17.5
+G3 X-17.5 Y-3.0 Z-7.5 R3.5
+G0 X-47.5 Y-3.0 Z-7.5
+G2 X-47.5 Y3.0 Z-7.5 R3.0
+G0 X-17.5 Y3.0 Z-7.5
+G3 X-15.0 Y5.0 Z-7.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-8.5
+G2 X15.0 Y5.0 Z-8.5 R17.5
+G3 X17.5 Y3.0 Z-8.5 R3.5
+G0 X47.5 Y3.0 Z-8.5
+G2 X47.5 Y-3.0 Z-8.5 R3.0
+G0 X17.5 Y-3.0 Z-8.5
+G3 X15.0 Y-5.0 Z-8.5 R3.5
+G2 X-15.0 Y-5.0 Z-8.5 R17.5
+G3 X-17.5 Y-3.0 Z-8.5 R3.5
+G0 X-47.5 Y-3.0 Z-8.5
+G2 X-47.5 Y3.0 Z-8.5 R3.0
+G0 X-17.5 Y3.0 Z-8.5
+G3 X-15.0 Y5.0 Z-8.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-8.5
+G2 X15.0 Y5.0 Z-8.5 R17.5
+G3 X17.5 Y3.0 Z-8.5 R3.5
+G0 X47.5 Y3.0 Z-8.5
+G2 X47.5 Y-3.0 Z-8.5 R3.0
+G0 X17.5 Y-3.0 Z-8.5
+G3 X15.0 Y-5.0 Z-8.5 R3.5
+G2 X-15.0 Y-5.0 Z-8.5 R17.5
+G3 X-17.5 Y-3.0 Z-8.5 R3.5
+G0 X-47.5 Y-3.0 Z-8.5
+G2 X-47.5 Y3.0 Z-8.5 R3.0
+G0 X-17.5 Y3.0 Z-8.5
+G3 X-15.0 Y5.0 Z-8.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-9.5
+G2 X15.0 Y5.0 Z-9.5 R17.5
+G3 X17.5 Y3.0 Z-9.5 R3.5
+G0 X47.5 Y3.0 Z-9.5
+G2 X47.5 Y-3.0 Z-9.5 R3.0
+G0 X17.5 Y-3.0 Z-9.5
+G3 X15.0 Y-5.0 Z-9.5 R3.5
+G2 X-15.0 Y-5.0 Z-9.5 R17.5
+G3 X-17.5 Y-3.0 Z-9.5 R3.5
+G0 X-47.5 Y-3.0 Z-9.5
+G2 X-47.5 Y3.0 Z-9.5 R3.0
+G0 X-17.5 Y3.0 Z-9.5
+G3 X-15.0 Y5.0 Z-9.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-9.5
+G2 X15.0 Y5.0 Z-9.5 R17.5
+G3 X17.5 Y3.0 Z-9.5 R3.5
+G0 X47.5 Y3.0 Z-9.5
+G2 X47.5 Y-3.0 Z-9.5 R3.0
+G0 X17.5 Y-3.0 Z-9.5
+G3 X15.0 Y-5.0 Z-9.5 R3.5
+G2 X-15.0 Y-5.0 Z-9.5 R17.5
+G3 X-17.5 Y-3.0 Z-9.5 R3.5
+G0 X-47.5 Y-3.0 Z-9.5
+G2 X-47.5 Y3.0 Z-9.5 R3.0
+G0 X-17.5 Y3.0 Z-9.5
+G3 X-15.0 Y5.0 Z-9.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-10.5
+G2 X15.0 Y5.0 Z-10.5 R17.5
+G3 X17.5 Y3.0 Z-10.5 R3.5
+G0 X47.5 Y3.0 Z-10.5
+G2 X47.5 Y-3.0 Z-10.5 R3.0
+G0 X17.5 Y-3.0 Z-10.5
+G3 X15.0 Y-5.0 Z-10.5 R3.5
+G2 X-15.0 Y-5.0 Z-10.5 R17.5
+G3 X-17.5 Y-3.0 Z-10.5 R3.5
+G0 X-47.5 Y-3.0 Z-10.5
+G2 X-47.5 Y3.0 Z-10.5 R3.0
+G0 X-17.5 Y3.0 Z-10.5
+G3 X-15.0 Y5.0 Z-10.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-10.5
+G2 X15.0 Y5.0 Z-10.5 R17.5
+G3 X17.5 Y3.0 Z-10.5 R3.5
+G0 X47.5 Y3.0 Z-10.5
+G2 X47.5 Y-3.0 Z-10.5 R3.0
+G0 X17.5 Y-3.0 Z-10.5
+G3 X15.0 Y-5.0 Z-10.5 R3.5
+G2 X-15.0 Y-5.0 Z-10.5 R17.5
+G3 X-17.5 Y-3.0 Z-10.5 R3.5
+G0 X-47.5 Y-3.0 Z-10.5
+G2 X-47.5 Y3.0 Z-10.5 R3.0
+G0 X-17.5 Y3.0 Z-10.5
+G3 X-15.0 Y5.0 Z-10.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-11.5
+G2 X15.0 Y5.0 Z-11.5 R17.5
+G3 X17.5 Y3.0 Z-11.5 R3.5
+G0 X47.5 Y3.0 Z-11.5
+G2 X47.5 Y-3.0 Z-11.5 R3.0
+G0 X17.5 Y-3.0 Z-11.5
+G3 X15.0 Y-5.0 Z-11.5 R3.5
+G2 X-15.0 Y-5.0 Z-11.5 R17.5
+G3 X-17.5 Y-3.0 Z-11.5 R3.5
+G0 X-47.5 Y-3.0 Z-11.5
+G2 X-47.5 Y3.0 Z-11.5 R3.0
+G0 X-17.5 Y3.0 Z-11.5
+G3 X-15.0 Y5.0 Z-11.5 R3.5
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-11.5
+G2 X15.0 Y5.0 Z-11.5 R17.5
+G3 X17.5 Y3.0 Z-11.5 R3.5
+G0 X47.5 Y3.0 Z-11.5
+G2 X47.5 Y-3.0 Z-11.5 R3.0
+G0 X17.5 Y-3.0 Z-11.5
+G3 X15.0 Y-5.0 Z-11.5 R3.5
+G2 X-15.0 Y-5.0 Z-11.5 R17.5
+G3 X-17.5 Y-3.0 Z-11.5 R3.5
+G0 X-47.5 Y-3.0 Z-11.5
+G2 X-47.5 Y3.0 Z-11.5 R3.0
+G0 X-17.5 Y3.0 Z-11.5
+G3 X-15.0 Y5.0 Z-11.5 R3.5
+
+
+(Return to Center)
+G0 Z0.5 
+G0 X0 Y0 Z0.5 

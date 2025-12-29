@@ -34,6 +34,47 @@ G0 X-17.5 Y3.0 Z-0.5
 G3 X-15.0 Y5.0 Z-0.5 R3.5
 ```
 
+### Enlarged for larger mill bits
+
+In my case my smallest drill bit is a `1/8x1/6x3/8x1-1/2`. The diameter of the bit is 1/8, half of that is 1/16 or 1.5875mm. Increasing the measurements by 2.0 adds enough spacing and increases the bulkiness of the output, which in this case is desired.
+
+```gcode
+G0 Z0.5
+G0 X0 Y0 Z0.5
+G1 Z0.5 F800
+
+G0 X0 Y-8.4 Z0.5
+G0 Z-0.5
+
+(bore the thumbhole)
+G2 X0 Y-8.4 Z-0.5 I0 J8.4
+
+(Return to the center)
+G0 Z0.5
+G0 X0.0 Y20.0 Z0.5 
+
+(Go and cut the outside shape)
+G0 X-18.0 Y9.0 Z0.5 
+G0 Z-0.5
+G2 X18.0 Y9.0 Z-0.5 R19
+G3 X19 Y7.8 Z-0.5 R3.5
+G0 X47.5 Y7.8 Z-0.5
+G2 X47.5 Y-7.8 Z-0.5 R7.8
+G0 X19 Y-7.8 Z-0.5
+G3 X18.0 Y-9.0 Z-0.5 R3.5
+G2 X-18.0 Y-9.0 Z-0.5 R19
+G3 X-19 Y-7.8 Z-0.5 R3.5
+G0 X-47.5 Y-7.8 Z-0.5
+G2 X-47.5 Y7.8 Z-0.5 R7.8
+G0 X-19 Y7.8 Z-0.5
+G3 X-18.0 Y9.0 Z-0.5 R3.5
+
+
+(Return to Center)
+G0 Z0.5 
+G0 X0 Y0 Z0.5 
+```
+
 ![Thumb Reader CNC](assets/180-degree.png)
 
 ## 90 degree book holder

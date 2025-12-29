@@ -1,0 +1,366 @@
+G0 Z0.5
+G0 X0 Y0 Z0.5
+G1 Z0.5 F800
+
+G0 X0 Y-10.0 Z0.5
+G0 Z-0.5
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-0.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-1.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-2.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-2.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-3.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-3.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-4.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-4.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-5.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-5.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-6.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-6.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-7.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-7.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-8.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-8.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-9.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-9.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-10.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-10.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-11.5 I0 J10.0
+
+(bore the thumbhole)
+G2 X0 Y-10 Z-11.5 I0 J10.0
+
+(Return to the center)
+G0 Z0.5
+G0 X0.0 Y16.0 Z0.5 
+
+(Go and cut the outside shape)
+G0 Z-0.5
+G2 X16.0 Y0.0 Z-0.5 R16
+G0 X40.0 Y20.0 Z-0.5
+G2 X44.25 Y15.75 Z-0.5 R3.01
+G0 X10.0 Y-12.37 Z-0.5
+G2 X0.0 Y-16.0 Z-0.5 R16
+G2 X-10.0 Y-12.37 Z-0.5 R16
+G0 X-44.25 Y15.75 Z-0.5
+G2 X-40.0 Y20.0 Z-0.5 R3.01
+G0 X-16.0 Y0.0 Z-0.5
+G2 X0.0 Y16.0 Z-0.5 R16
+
+(Go and cut the outside shape)
+G0 Z-1.5
+G2 X16.0 Y0.0 Z-1.5 R16
+G0 X40.0 Y20.0 Z-1.5
+G2 X44.25 Y15.75 Z-1.5 R3.01
+G0 X10.0 Y-12.37 Z-1.5
+G2 X0.0 Y-16.0 Z-1.5 R16
+G2 X-10.0 Y-12.37 Z-1.5 R16
+G0 X-44.25 Y15.75 Z-1.5
+G2 X-40.0 Y20.0 Z-1.5 R3.01
+G0 X-16.0 Y0.0 Z-1.5
+G2 X0.0 Y16.0 Z-1.5 R16
+
+(Go and cut the outside shape)
+G0 Z-2.5
+G2 X16.0 Y0.0 Z-2.5 R16
+G0 X40.0 Y20.0 Z-2.5
+G2 X44.25 Y15.75 Z-2.5 R3.01
+G0 X10.0 Y-12.37 Z-2.5
+G2 X0.0 Y-16.0 Z-2.5 R16
+G2 X-10.0 Y-12.37 Z-2.5 R16
+G0 X-44.25 Y15.75 Z-2.5
+G2 X-40.0 Y20.0 Z-2.5 R3.01
+G0 X-16.0 Y0.0 Z-2.5
+G2 X0.0 Y16.0 Z-2.5 R16
+
+(Go and cut the outside shape)
+G0 Z-2.5
+G2 X16.0 Y0.0 Z-2.5 R16
+G0 X40.0 Y20.0 Z-2.5
+G2 X44.25 Y15.75 Z-2.5 R3.01
+G0 X10.0 Y-12.37 Z-2.5
+G2 X0.0 Y-16.0 Z-2.5 R16
+G2 X-10.0 Y-12.37 Z-2.5 R16
+G0 X-44.25 Y15.75 Z-2.5
+G2 X-40.0 Y20.0 Z-2.5 R3.01
+G0 X-16.0 Y0.0 Z-2.5
+G2 X0.0 Y16.0 Z-2.5 R16
+
+(Go and cut the outside shape)
+G0 Z-3.5
+G2 X16.0 Y0.0 Z-3.5 R16
+G0 X40.0 Y20.0 Z-3.5
+G2 X44.25 Y15.75 Z-3.5 R3.01
+G0 X10.0 Y-12.37 Z-3.5
+G2 X0.0 Y-16.0 Z-3.5 R16
+G2 X-10.0 Y-12.37 Z-3.5 R16
+G0 X-44.25 Y15.75 Z-3.5
+G2 X-40.0 Y20.0 Z-3.5 R3.01
+G0 X-16.0 Y0.0 Z-3.5
+G2 X0.0 Y16.0 Z-3.5 R16
+
+(Go and cut the outside shape)
+G0 Z-3.5
+G2 X16.0 Y0.0 Z-3.5 R16
+G0 X40.0 Y20.0 Z-3.5
+G2 X44.25 Y15.75 Z-3.5 R3.01
+G0 X10.0 Y-12.37 Z-3.5
+G2 X0.0 Y-16.0 Z-3.5 R16
+G2 X-10.0 Y-12.37 Z-3.5 R16
+G0 X-44.25 Y15.75 Z-3.5
+G2 X-40.0 Y20.0 Z-3.5 R3.01
+G0 X-16.0 Y0.0 Z-3.5
+G2 X0.0 Y16.0 Z-3.5 R16
+
+(Go and cut the outside shape)
+G0 Z-4.5
+G2 X16.0 Y0.0 Z-4.5 R16
+G0 X40.0 Y20.0 Z-4.5
+G2 X44.25 Y15.75 Z-4.5 R3.01
+G0 X10.0 Y-12.37 Z-4.5
+G2 X0.0 Y-16.0 Z-4.5 R16
+G2 X-10.0 Y-12.37 Z-4.5 R16
+G0 X-44.25 Y15.75 Z-4.5
+G2 X-40.0 Y20.0 Z-4.5 R3.01
+G0 X-16.0 Y0.0 Z-4.5
+G2 X0.0 Y16.0 Z-4.5 R16
+
+(Go and cut the outside shape)
+G0 Z-4.5
+G2 X16.0 Y0.0 Z-4.5 R16
+G0 X40.0 Y20.0 Z-4.5
+G2 X44.25 Y15.75 Z-4.5 R3.01
+G0 X10.0 Y-12.37 Z-4.5
+G2 X0.0 Y-16.0 Z-4.5 R16
+G2 X-10.0 Y-12.37 Z-4.5 R16
+G0 X-44.25 Y15.75 Z-4.5
+G2 X-40.0 Y20.0 Z-4.5 R3.01
+G0 X-16.0 Y0.0 Z-4.5
+G2 X0.0 Y16.0 Z-4.5 R16
+
+(Go and cut the outside shape)
+G0 Z-5.5
+G2 X16.0 Y0.0 Z-5.5 R16
+G0 X40.0 Y20.0 Z-5.5
+G2 X44.25 Y15.75 Z-5.5 R3.01
+G0 X10.0 Y-12.37 Z-5.5
+G2 X0.0 Y-16.0 Z-5.5 R16
+G2 X-10.0 Y-12.37 Z-5.5 R16
+G0 X-44.25 Y15.75 Z-5.5
+G2 X-40.0 Y20.0 Z-5.5 R3.01
+G0 X-16.0 Y0.0 Z-5.5
+G2 X0.0 Y16.0 Z-5.5 R16
+
+(Go and cut the outside shape)
+G0 Z-5.5
+G2 X16.0 Y0.0 Z-5.5 R16
+G0 X40.0 Y20.0 Z-5.5
+G2 X44.25 Y15.75 Z-5.5 R3.01
+G0 X10.0 Y-12.37 Z-5.5
+G2 X0.0 Y-16.0 Z-5.5 R16
+G2 X-10.0 Y-12.37 Z-5.5 R16
+G0 X-44.25 Y15.75 Z-5.5
+G2 X-40.0 Y20.0 Z-5.5 R3.01
+G0 X-16.0 Y0.0 Z-5.5
+G2 X0.0 Y16.0 Z-5.5 R16
+
+(Go and cut the outside shape)
+G0 Z-6.5
+G2 X16.0 Y0.0 Z-6.5 R16
+G0 X40.0 Y20.0 Z-6.5
+G2 X44.25 Y15.75 Z-6.5 R3.01
+G0 X10.0 Y-12.37 Z-6.5
+G2 X0.0 Y-16.0 Z-6.5 R16
+G2 X-10.0 Y-12.37 Z-6.5 R16
+G0 X-44.25 Y15.75 Z-6.5
+G2 X-40.0 Y20.0 Z-6.5 R3.01
+G0 X-16.0 Y0.0 Z-6.5
+G2 X0.0 Y16.0 Z-6.5 R16
+
+(Go and cut the outside shape)
+G0 Z-6.5
+G2 X16.0 Y0.0 Z-6.5 R16
+G0 X40.0 Y20.0 Z-6.5
+G2 X44.25 Y15.75 Z-6.5 R3.01
+G0 X10.0 Y-12.37 Z-6.5
+G2 X0.0 Y-16.0 Z-6.5 R16
+G2 X-10.0 Y-12.37 Z-6.5 R16
+G0 X-44.25 Y15.75 Z-6.5
+G2 X-40.0 Y20.0 Z-6.5 R3.01
+G0 X-16.0 Y0.0 Z-6.5
+G2 X0.0 Y16.0 Z-6.5 R16
+
+(Go and cut the outside shape)
+G0 Z-7.5
+G2 X16.0 Y0.0 Z-7.5 R16
+G0 X40.0 Y20.0 Z-7.5
+G2 X44.25 Y15.75 Z-7.5 R3.01
+G0 X10.0 Y-12.37 Z-7.5
+G2 X0.0 Y-16.0 Z-7.5 R16
+G2 X-10.0 Y-12.37 Z-7.5 R16
+G0 X-44.25 Y15.75 Z-7.5
+G2 X-40.0 Y20.0 Z-7.5 R3.01
+G0 X-16.0 Y0.0 Z-7.5
+G2 X0.0 Y16.0 Z-7.5 R16
+
+(Go and cut the outside shape)
+G0 Z-7.5
+G2 X16.0 Y0.0 Z-7.5 R16
+G0 X40.0 Y20.0 Z-7.5
+G2 X44.25 Y15.75 Z-7.5 R3.01
+G0 X10.0 Y-12.37 Z-7.5
+G2 X0.0 Y-16.0 Z-7.5 R16
+G2 X-10.0 Y-12.37 Z-7.5 R16
+G0 X-44.25 Y15.75 Z-7.5
+G2 X-40.0 Y20.0 Z-7.5 R3.01
+G0 X-16.0 Y0.0 Z-7.5
+G2 X0.0 Y16.0 Z-7.5 R16
+
+(Go and cut the outside shape)
+G0 Z-8.5
+G2 X16.0 Y0.0 Z-8.5 R16
+G0 X40.0 Y20.0 Z-8.5
+G2 X44.25 Y15.75 Z-8.5 R3.01
+G0 X10.0 Y-12.37 Z-8.5
+G2 X0.0 Y-16.0 Z-8.5 R16
+G2 X-10.0 Y-12.37 Z-8.5 R16
+G0 X-44.25 Y15.75 Z-8.5
+G2 X-40.0 Y20.0 Z-8.5 R3.01
+G0 X-16.0 Y0.0 Z-8.5
+G2 X0.0 Y16.0 Z-8.5 R16
+
+(Go and cut the outside shape)
+G0 Z-8.5
+G2 X16.0 Y0.0 Z-8.5 R16
+G0 X40.0 Y20.0 Z-8.5
+G2 X44.25 Y15.75 Z-8.5 R3.01
+G0 X10.0 Y-12.37 Z-8.5
+G2 X0.0 Y-16.0 Z-8.5 R16
+G2 X-10.0 Y-12.37 Z-8.5 R16
+G0 X-44.25 Y15.75 Z-8.5
+G2 X-40.0 Y20.0 Z-8.5 R3.01
+G0 X-16.0 Y0.0 Z-8.5
+G2 X0.0 Y16.0 Z-8.5 R16
+
+(Go and cut the outside shape)
+G0 Z-9.5
+G2 X16.0 Y0.0 Z-9.5 R16
+G0 X40.0 Y20.0 Z-9.5
+G2 X44.25 Y15.75 Z-9.5 R3.01
+G0 X10.0 Y-12.37 Z-9.5
+G2 X0.0 Y-16.0 Z-9.5 R16
+G2 X-10.0 Y-12.37 Z-9.5 R16
+G0 X-44.25 Y15.75 Z-9.5
+G2 X-40.0 Y20.0 Z-9.5 R3.01
+G0 X-16.0 Y0.0 Z-9.5
+G2 X0.0 Y16.0 Z-9.5 R16
+
+(Go and cut the outside shape)
+G0 Z-9.5
+G2 X16.0 Y0.0 Z-9.5 R16
+G0 X40.0 Y20.0 Z-9.5
+G2 X44.25 Y15.75 Z-9.5 R3.01
+G0 X10.0 Y-12.37 Z-9.5
+G2 X0.0 Y-16.0 Z-9.5 R16
+G2 X-10.0 Y-12.37 Z-9.5 R16
+G0 X-44.25 Y15.75 Z-9.5
+G2 X-40.0 Y20.0 Z-9.5 R3.01
+G0 X-16.0 Y0.0 Z-9.5
+G2 X0.0 Y16.0 Z-9.5 R16
+
+(Go and cut the outside shape)
+G0 Z-10.5
+G2 X16.0 Y0.0 Z-10.5 R16
+G0 X40.0 Y20.0 Z-10.5
+G2 X44.25 Y15.75 Z-10.5 R3.01
+G0 X10.0 Y-12.37 Z-10.5
+G2 X0.0 Y-16.0 Z-10.5 R16
+G2 X-10.0 Y-12.37 Z-10.5 R16
+G0 X-44.25 Y15.75 Z-10.5
+G2 X-40.0 Y20.0 Z-10.5 R3.01
+G0 X-16.0 Y0.0 Z-10.5
+G2 X0.0 Y16.0 Z-10.5 R16
+
+(Go and cut the outside shape)
+G0 Z-10.5
+G2 X16.0 Y0.0 Z-10.5 R16
+G0 X40.0 Y20.0 Z-10.5
+G2 X44.25 Y15.75 Z-10.5 R3.01
+G0 X10.0 Y-12.37 Z-10.5
+G2 X0.0 Y-16.0 Z-10.5 R16
+G2 X-10.0 Y-12.37 Z-10.5 R16
+G0 X-44.25 Y15.75 Z-10.5
+G2 X-40.0 Y20.0 Z-10.5 R3.01
+G0 X-16.0 Y0.0 Z-10.5
+G2 X0.0 Y16.0 Z-10.5 R16
+
+(Go and cut the outside shape)
+G0 Z-11.5
+G2 X16.0 Y0.0 Z-11.5 R16
+G0 X40.0 Y20.0 Z-11.5
+G2 X44.25 Y15.75 Z-11.5 R3.01
+G0 X10.0 Y-12.37 Z-11.5
+G2 X0.0 Y-16.0 Z-11.5 R16
+G2 X-10.0 Y-12.37 Z-11.5 R16
+G0 X-44.25 Y15.75 Z-11.5
+G2 X-40.0 Y20.0 Z-11.5 R3.01
+G0 X-16.0 Y0.0 Z-11.5
+G2 X0.0 Y16.0 Z-11.5 R16
+
+(Go and cut the outside shape)
+G0 Z-11.5
+G2 X16.0 Y0.0 Z-11.5 R16
+G0 X40.0 Y20.0 Z-11.5
+G2 X44.25 Y15.75 Z-11.5 R3.01
+G0 X10.0 Y-12.37 Z-11.5
+G2 X0.0 Y-16.0 Z-11.5 R16
+G2 X-10.0 Y-12.37 Z-11.5 R16
+G0 X-44.25 Y15.75 Z-11.5
+G2 X-40.0 Y20.0 Z-11.5 R3.01
+G0 X-16.0 Y0.0 Z-11.5
+G2 X0.0 Y16.0 Z-11.5 R16
+
+(Return to Center)
+G0 Z0.5 
+G0 X0 Y0 Z0.5 
