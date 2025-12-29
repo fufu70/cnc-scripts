@@ -34,6 +34,8 @@ G0 X-17.5 Y3.0 Z-0.5
 G3 X-15.0 Y5.0 Z-0.5 R3.5
 ```
 
+![Thumb Reader CNC](assets/180-degree.png)
+
 ### Enlarged for larger mill bits
 
 In my case my smallest drill bit is a `1/8x1/6x3/8x1-1/2`. The diameter of the bit is 1/8, half of that is 1/16 or 1.5875mm. Increasing the measurements by 2.0 adds enough spacing and increases the bulkiness of the output, which in this case is desired.
@@ -75,7 +77,7 @@ G0 Z0.5
 G0 X0 Y0 Z0.5 
 ```
 
-![Thumb Reader CNC](assets/180-degree.png)
+![180-degree-enlarged](assets/180-degree-enlarged.png)
 
 ## 90 degree book holder
 
