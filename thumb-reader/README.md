@@ -79,6 +79,39 @@ G0 X0 Y0 Z0.5
 
 ![180-degree-enlarged](assets/180-degree-enlarged.png)
 
+### Fat Thumbs?
+
+```
+G0 X0 Y0 Z0.5 
+
+G0 X0 Y-13.0 Z0.5
+G0 Z-0.5
+(bore the thumbhole)
+G2 X0 Y-13 Z-0.5 I0 J13.0
+
+(Return to the center)
+G0 Z0.5
+G0 X0 Y0 Z0.5 
+
+(Go and cut the outside shape)
+G0 X-15.0 Y5.0 Z0.5 
+G0 Z-0.5
+G2 X15.0 Y5.0 Z-0.5 R16.0
+G3 X17.5 Y3.0 Z-0.5 R3.5
+G0 X47.5 Y3.0 Z-0.5
+G2 X47.5 Y-3.0 Z-0.5 R3.0
+G0 X17.5 Y-3.0 Z-0.5
+G3 X15.0 Y-5.0 Z-0.5 R3.5
+G2 X-15.0 Y-5.0 Z-0.5 R16.0
+G3 X-17.5 Y-3.0 Z-0.5 R3.5
+G0 X-47.5 Y-3.0 Z-0.5
+G2 X-47.5 Y3.0 Z-0.5 R3.0
+G0 X-17.5 Y3.0 Z-0.5
+G3 X-15.0 Y5.0 Z-0.5 R3.5
+```
+
+![180-degree-fat](assets/180-degree-fat.png)
+
 ## 90 degree book holder
 
 Below is the basic pattern to drill a book holder for the thumb.
