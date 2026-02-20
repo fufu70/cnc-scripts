@@ -113,6 +113,17 @@ G2 X0.0 Y16.0 Z-0.5 R16
 
 ![90 degree CNC](assets/90-degree.png)
 
+## For Larger Thumbs
+
+For Larger thumbs, increase the size of the Y and J values to match the diameter size required. The below example uses a diameter of `13`
+
+```gcode
+G0 X0 Y-13.0 Z0.5
+G0 Z-0.5
+(bore the thumbhole)
+G2 X0 Y-13 Z-0.5 I0 J13.0
+```
+
 ## Little Alien
 
 ```gcode
